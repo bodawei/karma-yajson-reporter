@@ -1,0 +1,19 @@
+{
+  "name": "karma-yajson-reporter",
+  "version": "0.9.9",
+  "description": "Yet Another JSON Reporter for Karma — Reports on all tests run by Karma as well as reporting when tests have duplicate names.",
+  "homepage": "https://github.com/bodawei/karma-yajson-reporter",
+  "license": "Apache-2.0",
+  "author": "柏大衛 <biede0@gmail.com>",
+  "main": "index.js",
+  "files": [
+     "example",
+     "index.js",
+     "LICENSE.txt",
+     "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bodawei/karma-yajson-reporter"
+  }
+}

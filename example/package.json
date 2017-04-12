@@ -1,0 +1,24 @@
+{
+  "name": "karma-ya-json-reporter-example",
+  "version": "1.0.0",
+  "description": "Just an example.  Run npm install to get dependencies",
+  "homepage": "https://github.com/bodawei/karma-ya-json-reporter",
+  "license": "Apache-2.0",
+  "author": "柏大衛 <biede0@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bodawei/karma-ya-json-reporter"
+  },
+  "devDependencies": {
+    "jasmine-core": "2.5.2",
+    "karma": "1.6.0",
+    "karma-chrome-launcher": "2.0.0",
+    "karma-firefox-launcher": "1.0.1",
+    "karma-jasmine": "1.1.0",
+    "karma-opera-launcher": "1.0.0",
+    "karma-phantomjs-launcher": "1.0.4",
+    "karma-safari-launcher": "1.0.0",
+    "karma-yajson-reporter": "0.9.9",
+    "phantomjs-prebuilt": "2.1.14"
+  }
+}
