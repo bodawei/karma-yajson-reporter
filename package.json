@@ -1,6 +1,6 @@
 {
   "name": "karma-yajson-reporter",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "description": "Yet Another JSON Reporter for Karma — Reports on all tests run by Karma as well as reporting when tests have duplicate names.",
   "homepage": "https://github.com/bodawei/karma-yajson-reporter",
   "license": "Apache-2.0",

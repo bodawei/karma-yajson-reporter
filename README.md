@@ -58,23 +58,28 @@ This is used like normal [Karma](http://karma-runner.github.io/1.0/intro/configu
     "demonstration > this is a test which passes": {
       "passed": true,
       "skipped": false,
-      "milliseconds": 3
+      "milliseconds": 15
     },
     "demonstration > this is a test which does not pass": {
       "passed": false,
       "skipped": false,
-      "milliseconds": 2
+      "milliseconds": 1
+    },
+    "demonstration > this is a test which is skipped": {
+      "passed": true,
+      "skipped": true,
+      "milliseconds": 0
     },
     "demonstration > this is a test with name A": {
       "passed": true,
       "skipped": false,
-      "milliseconds": 1
+      "milliseconds": 0
     }
   },
   "counts": {
-    "test": 4,
-    "passed": 0,
-    "skipped": 0,
+    "tests": 5,
+    "passed": 4,
+    "skipped": 1,
     "milliseconds": null
   },
   "duplicateNames": [

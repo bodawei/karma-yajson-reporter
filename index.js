@@ -49,7 +49,7 @@ const resultsPerBrowser = {};
 function Results() {
    this.tests = {};
    this.counts = {
-      test: 0,
+      tests: 0,
       passed: 0,
       skipped: 0,
       milliseconds: 0
@@ -78,8 +78,8 @@ function onSpecComplete(browser, result) {
       milliseconds: result.time
    };
 
-   results.counts.test ++;
-   results.counts.passed += result.passed ? 1 : 0;
+   results.counts.tests ++;
+   results.counts.passed += result.success ? 1 : 0;
    results.counts.skipped += result.skipped ? 1 : 0;
    results.counts.milliseconds += result.milliseconds;
 }

@@ -25,6 +25,10 @@ describe("demonstration", function() {
 		expect(1).toEqual(0);
 	});
 
+	xit("this is a test which is skipped", function() {
+		expect(1).toEqual(0);
+	});
+
 	it("this is a test with name A", function() {
 		expect(1).toEqual(1);
 	});
